@@ -1,2 +1,8 @@
 # js-sandbox
-Modern javascript sanbox
+Modern javascript sandbox
+
+A place to learn modern javascript.
+
+# Promises
+
+# Generator functions
