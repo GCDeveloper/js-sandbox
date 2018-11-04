@@ -16,3 +16,13 @@ wait()
 .then(()=>{
   console.log("3 seconds have passed, that's all!");
 });
+
+async function wait2(){
+  await wait();
+  console.log("waited 1 second");
+  await wait();
+  console.log("waited another second");
+  await wait();
+  console.log("waited all 3 seconds!");
+}
+wait2();
