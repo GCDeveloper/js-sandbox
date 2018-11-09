@@ -17,3 +17,4 @@ for(let i = 0; i < n ; i++){
   console.log(powers.next().value);
 }
 console.log("=====================");
+module.exports = yieldPower;
