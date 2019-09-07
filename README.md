@@ -1,8 +1,8 @@
 # js-sandbox
-Modern javascript sandbox
 
-A place to learn modern javascript.
-This repository contains several standalone files to learn certain javascript concepts such as generator functions and async await.
+Javascript sandbox
+This repository contains several standalone files to play with certain javascript concepts such as generator functions and async await.
+These can be run with `node`
 
 ---
 
@@ -12,7 +12,9 @@ Then you can run the scripts in the terminal by typing a command like this:
 
 `node <scriptname> <arguments>`
 
-For example, <scriptname> could be generators.js and <arguments> could be 10 6 and therefore you command would be:
+You will also need to specify the pathname, relative to the current working directory (cwd) of your terminal.
+
+For example, <scriptname> could be ./functions/generators.js and <arguments> could be 10 6 and therefore you command would be:
 
 `node generators.js 10 6`
 
@@ -27,3 +29,7 @@ once installed, you can run the tests by typing in the terminal:
 so for example:
 
 `mocha functions.test.js`
+
+or use a glob pattern like this:
+
+`mocha **/*.test.js`
