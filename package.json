@@ -1,0 +1,20 @@
+{
+  "name": "js-sandbox",
+  "version": "1.0.0",
+  "description": "Javascript sandbox This repository contains several standalone files to play with certain javascript concepts such as generator functions and async await. These can be run with `node`",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha **/*.test.js",
+    "start": "node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GCDeveloper/js-sandbox.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GCDeveloper/js-sandbox/issues"
+  },
+  "homepage": "https://github.com/GCDeveloper/js-sandbox#readme"
+}
