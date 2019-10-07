@@ -5,8 +5,8 @@ function add(a, b) {
   return a + b;
 }
 //this function adds all arguments together
-function addAll() {
-  return all(add, 0, ...arguments);
+function addAll(...args) {
+  return all(add, 0, ...args);
 }
 
 module.exports = addAll;
