@@ -1,4 +1,4 @@
-//What does Object.getOwnPropertDescriptors do?
+//What does Object.getOwnPropertyDescriptors do?
 const args = [{}, { test: 'hello' }];
 
 args.forEach((arg, i) => {
